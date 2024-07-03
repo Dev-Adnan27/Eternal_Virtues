@@ -1,0 +1,79 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Garamond', serif; /* Tajawal is an example of an Arabic-inspired font */
+    background-color: #f9f7f5; /* Light cream background */
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container styles */
+.container {
+    width: 90%;
+    max-width: 600px;
+    padding: 30px;
+    background-color: #fcf8f3; /* Cream background */
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Heading styles */
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #3b1c04; /* Dark brown for headings */
+}
+
+/* Paragraph styles */
+p {
+    margin-bottom: 10px;
+    color: #6b533b; /* Dark brown for text */
+}
+
+/* Select box styles */
+#purpose-select {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border: 2px solid #a37d4a; /* Golden brown border */
+    border-radius: 8px;
+    background-color: #fff8ec; /* Light beige background */
+    color: #3b1c04; /* Dark brown text */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" stroke="%23a37d4a"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>');
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    padding-right: 40px;
+}
+
+/* Result div styles */
+.result {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: x-large;
+    color: #473804; /* Dark brown text */
+    text-align: center;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+    #purpose-select {
+        font-size: 16px;
+    }
+}
